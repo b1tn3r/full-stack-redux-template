@@ -1,0 +1,172 @@
+/* --------------------------------------------------------
+   Dependency (for imports)
+   --------------------------------------------------------- */
+
+@import '~bootstrap/scss/functions';     // _functions needed for importing and evaluating source code across variables, mixins and maps.
+
+
+
+
+// ---------------------------------------------------------
+// Variables
+// ---------------------------------------------------------
+// Import default bootstrap/ variables and override with project specific variables
+
+@import '~bootstrap/scss/variables';     // default bootstrap variables from library
+@import 'variables';                     // project variables
+
+
+
+
+/* --------------------------------------------------------
+   Core mixins
+   --------------------------------------------------------- */
+
+@import 'mixins';       // project included library mixins
+
+
+
+/* --------------------------------------------------------
+   Reset and dependencies
+   --------------------------------------------------------- */
+
+@import '~bootstrap/scss/reboot';       // normalization of html elements to remove redundancy and styles targeting irrelevant browsers while (rebooting) applying new styles
+@import '~bootstrap/scss/print';        // print styles
+@import '~bootstrap/scss/root';       // handles custom properties to ensure sass-css compatibility by interpolating css custom properties and using inspect() on font-familys
+
+
+
+/* --------------------------------------------------------
+   Core CSS
+   --------------------------------------------------------- */
+
+@import '~bootstrap/scss/buttons';
+//@import '~bootstrap/scss/code';       // code-like elements (pre/code/etc.) - inline and block
+@import '~bootstrap/scss/forms';
+@import '~bootstrap/scss/grid';       // grid system
+//@import '~bootstrap/scss/images';     // responsive images
+//@import '~bootstrap/scss/tables';
+@import '~bootstrap/scss/type';       // typography (headings, lists, body text, etc.)
+
+
+
+/* --------------------------------------------------------
+   Components
+   --------------------------------------------------------- */
+
+//@import '~bootstrap/scss/alert';
+//@import '~bootstrap/scss/badge';
+//@import '~bootstrap/scss/breadcrumb';
+//@import '~bootstrap/scss/button-group';
+@import '~bootstrap/scss/card';
+//@import '~bootstrap/scss/close';          // Close Icons
+//@import '~bootstrap/scss/custom-forms';   // forms with alt custom styles
+//@import '~bootstrap/scss/dropdown';
+@import '~bootstrap/scss/input-group';
+@import '~bootstrap/scss/jumbotron';
+@import '~bootstrap/scss/list-group';
+//@import '~bootstrap/scss/media';          // for article organization
+//@import '~bootstrap/scss/nav';            // base nav
+//@import '~bootstrap/scss/navbar';         // nav with added features
+//@import '~bootstrap/scss/pagination';
+//@import '~bootstrap/scss/progress';
+//@import '~bootstrap/scss/transitions';    // transition animations (fade, collapse, etc.)
+
+
+
+
+/* --------------------------------------------------------
+   Components w/ Javascript
+   --------------------------------------------------------- */
+
+//@import '~bootstrap/scss/carousel';
+//@import '~bootstrap/scss/modal';
+//@import '~bootstrap/scss/popover';
+//@import '~bootstrap/scss/tooltip';
+
+
+
+
+/* --------------------------------------------------------
+   Utility classes
+   --------------------------------------------------------- */
+
+// ALL UTILITIES
+@import '~bootstrap/scss/utilities';
+
+// CUSTOM UTILITIES
+//@import '~bootstrap/scss/utilities/align';
+//@import '~bootstrap/scss/utilities/background';
+//@import '~bootstrap/scss/utilities/borders';
+//@import '~bootstrap/scss/utilities/clearfix';
+//@import '~bootstrap/scss/utilities/display';
+//@import '~bootstrap/scss/utilities/embed';
+//@import '~bootstrap/scss/utilities/flex';
+//@import '~bootstrap/scss/utilities/float';
+//@import '~bootstrap/scss/utilities/position';
+//@import '~bootstrap/scss/utilities/screenreaders';
+//@import '~bootstrap/scss/utilities/sizing';
+//@import '~bootstrap/scss/utilities/spacing';
+//@import '~bootstrap/scss/utilities/text';
+//@import '~bootstrap/scss/utilities/visibility';
+
+
+
+
+
+/* --------------------------------------------------------
+   Bootswatch Theme
+   --------------------------------------------------------- */
+
+//@import '~bootswatch/dist/cerulean/variables';
+//@import '~bootswatch/dist/cerulean/bootswatch';
+//@import '~bootswatch/dist/cosmo/variables';
+//@import '~bootswatch/dist/cosmo/bootswatch';
+//@import '~bootswatch/dist/cyborg/variables';
+//@import '~bootswatch/dist/cyborg/bootswatch';
+//@import '~bootswatch/dist/darkly/variables';
+//@import '~bootswatch/dist/darkly/bootswatch';
+//@import '~bootswatch/dist/flatly/variables';
+//@import '~bootswatch/dist/flatly/bootswatch';
+//@import '~bootswatch/dist/journal/variables';
+//@import '~bootswatch/dist/journal/bootswatch';
+//@import '~bootswatch/dist/litera/variables';
+//@import '~bootswatch/dist/litera/bootswatch';
+//@import '~bootswatch/dist/lumen/variables';
+//@import '~bootswatch/dist/lumen/bootswatch';
+//@import '~bootswatch/dist/lux/variables';
+//@import '~bootswatch/dist/lux/bootswatch';
+//@import '~bootswatch/dist/materia/variables';
+//@import '~bootswatch/dist/materia/bootswatch';
+//@import '~bootswatch/dist/minty/variables';
+//@import '~bootswatch/dist/minty/bootswatch';
+//@import '~bootswatch/dist/pulse/variables';
+//@import '~bootswatch/dist/pulse/bootswatch';
+//@import '~bootswatch/dist/sandstone/variables';
+//@import '~bootswatch/dist/sandstone/bootswatch';
+//@import '~bootswatch/dist/simplex/variables';
+//@import '~bootswatch/dist/simplex/bootswatch';
+//@import '~bootswatch/dist/sketchy/variables';
+//@import '~bootswatch/dist/sketchy/bootswatch';
+//@import '~bootswatch/dist/slate/variables';
+//@import '~bootswatch/dist/slate/bootswatch';
+//@import '~bootswatch/dist/solar/variables';
+//@import '~bootswatch/dist/solar/bootswatch';
+//@import '~bootswatch/dist/spacelab/variables';
+//@import '~bootswatch/dist/spacelab/bootswatch';
+//@import '~bootswatch/dist/superhero/variables';
+//@import '~bootswatch/dist/superhero/bootswatch';
+//@import '~bootswatch/dist/united/variables';
+//@import '~bootswatch/dist/united/bootswatch';
+//@import '~bootswatch/dist/yeti/variables';
+//@import '~bootswatch/dist/yeti/bootswatch';
+
+
+
+
+
+/* --------------------------------------------------------
+   Extra Added Bootstrap
+   --------------------------------------------------------- */
+
+//@import 'extra';

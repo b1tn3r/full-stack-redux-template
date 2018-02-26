@@ -1,0 +1,10 @@
+footer {
+    width: 100%;
+    margin: auto;
+    position: fixed;
+    bottom: 0;
+
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, 0);     /* add autoprefixer in webpack so the prefixes are added upon build  */
+}

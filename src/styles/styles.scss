@@ -1,0 +1,59 @@
+@import './bootstrap/bootstrap';        // imports our bootstrap configuration
+
+//@import '~bootstrap/scss/variables';
+//@import '~bootswatch/dist/darkly/variables';
+//@import '~bootstrap/scss/bootstrap.scss';
+//@import '~bootswatch/dist/darkly/bootswatch';
+
+
+// I don't know how to inject variables after Bootstrap so i'm just importing the min.css version of Bootswatch Darkly in an scss file
+@import './bootswatch';
+
+
+
+@import 'footer';
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+h1 {
+    text-align: center;
+}
+
+pre {
+    color: white;
+}
+
+.contestItem {
+    margin: 1em;
+    border: 1px solid #ccc;
+
+    .category-name {
+        border-bottom: 1px solid #ccc;
+        padding: .25em .5em;
+        font-weight: bold;
+        background-color: #3a3a3a;
+    }
+
+    .contest-name {
+        padding: .5em;
+    }
+}
+
+.link {
+    cursor: pointer;
+}
+
+.home-link {
+    margin-top: 1em;
+    color: #25357a;
+    display: inline-block;
+}
+
+

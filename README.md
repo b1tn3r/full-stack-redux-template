@@ -46,7 +46,7 @@ This command will both build the client and server for production as minified an
 
 ## Authors
 
-* **Mike** - *CEO at Titan Global Tech* - [b1tn3r](https://github.com/b1tn3r)
+* **Mike** - *Founder of Titan Global Tech* - [b1tn3r](https://github.com/b1tn3r)
 
 
 ## License

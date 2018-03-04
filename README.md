@@ -1,4 +1,4 @@
-# Redux Full Stack Template
+MERN Stack Redux Template
 
 Starter template for building a large isomorphic web app that is pre-configured to optimize server/client rendering and uses custom navigation with the History API through Redux actions instead of using a Router. It has  a basic starting layout and leaves room for complete expansion without having to remove more than just he basic App. The backend uses a REST API configured with Mongoose to connect with a MongoDB server for persistence storage.
 
